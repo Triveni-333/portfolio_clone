@@ -1,19 +1,14 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  
-  /* Body and Text Styles */
-  body {
+    body {
   font-family: 'Times New Roman', Times, serif;
     background-color: white;
     color:grey
   }
-  
-  /* Navbar Styling */
-  nav {
+    nav {
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -22,57 +17,46 @@
     top:0;
     z-index: 10000;
   }
-  
-  nav .logo {
+   nav .logo {
     color: black;
     font-size: 24px;
     font-weight: bold;
   }
-  
   nav ul {
     display: flex;
     list-style: none;
   }
-  
-  nav ul li {
+   nav ul li {
     margin: 0 15px;
   }
-  
-  nav ul li a {
+   nav ul li a {
     color: black;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
   }
-  
   nav ul li a:hover {
     color: #4CAF50;
   }
-  
-  /* Hero Section (Home) */
-  .hero {
+    .hero {
     height: 100vh;
     background: linear-gradient(to bottom, rgba(162, 30, 30, 0.5), rgba(160, 98, 98, 0.5)), url('logo/WhatsApp Image 2025-03-10 at 01.36.07.jpeg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
-  .hero-text {
+   .hero-text {
     text-align: center;
     color: white;
   }
-  
-  .hero-text h1 {
+   .hero-text h1 {
     font-size: 50px;
     margin-bottom: 20px;
   }
-  
   .hero-text p {
     font-size: 20px;
     margin-bottom: 30px;
   }
-  
   .hero-text button {
     padding: 10px 20px;
     background-color: #4CAF50;
@@ -82,31 +66,25 @@
     cursor: pointer;
     transition: background-color 0.3s;
   }
-  
   .hero-text button:hover {
     background-color: #45a049;
   }
-  
-  
-  .profile-container {
+   .profile-container {
     position: relative;
     width: 250px;
     height: 250px;
   }
-  
-  .profile-picture {
+ .profile-picture {
     width: 30%;
     height: 30%;
   border-radius: 50px;;
     justify-content: center;
   }
-  
   .profile-picture img {
     width: 180%;
     height: 180%;
   border-radius: 90px;
-  
-  }
+   }
   .download-btn{
     display: inline-block;
     padding: 10px 20px;
@@ -120,46 +98,32 @@
   .download-btn:hover{
     background-color: #45a049;
   }
-  
-  
-  
-  
-  
-  /* Section Titles */
   .section-title {
     text-align: center;
     margin: 40px 0;
   }
-  
   .section-title h2 {
     font-size: 36px;
     color: #333;
   }
-  
-  /* About Section */
-  #about {
+    #about {
     padding: 50px;
     background-color: white;
   }
-  
   #about p {
     font-size: 18px;
     line-height: 1.6;
   }
-  
-  /* Projects Section */
-  #projects {
+    #projects {
     padding: 50px;
     background-color: #f7f7f7;
   }
-  
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
   }
-  
-  .project-card {
+   .project-card {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -167,42 +131,34 @@
     text-align: center;
     transition: transform 0.3s;
   }
-  
   .project-card:hover {
     transform: translateY(-10px);
   }
-  
   .project-card img {
     max-width: 15%;
     border-radius: 10px;
     margin-bottom: 20px;
   }
-  
   .project-card h3 {
     font-size: 24px;
     margin-bottom: 10px;
   }
-  
   .project-card a {
     color: #4CAF50;
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
   }
-  
-  /* Skills Section */
-  #skills {
+    #skills {
     padding: 50px;
     background-color: white;
   }
-  
-  .skills-list {
+   .skills-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-  
-  .skill {
+ .skill {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
@@ -210,20 +166,16 @@
     border-radius: 20px;
     font-size: 16px;
   }
-  
-  /* Contact Section */
   #contact {
     padding: 50px;
     background-color: #f7f7f7;
   }
-  
   #contact form {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
-  #contact input, #contact textarea {
+   #contact input, #contact textarea {
     width: 80%;
     padding: 15px;
     margin: 10px 0;
@@ -231,8 +183,7 @@
     border-radius: 5px;
     font-size: 16px;
   }
-  
-  #contact button {
+   #contact button {
     padding: 15px 30px;
     background-color: #4CAF50;
     color: white;
@@ -242,25 +193,20 @@
     font-size: 18px;
     transition: background-color 0.3s;
   }
-  
-  #contact button:hover {
+   #contact button:hover {
     background-color: #45a049;
   }
-  
-  /* Footer */
-  footer {
+    footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px;
   }
-  
-  footer a {
+   footer a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
   }
-  
-  footer a:hover {
+footer a:hover {
     color: #4CAF50;
   }
